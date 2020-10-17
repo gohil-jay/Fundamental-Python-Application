@@ -7,6 +7,7 @@ import gap
 
 sid = '#comp.python'
 pw = '#ididit'
+
 def login():
     
     print()
@@ -14,10 +15,13 @@ def login():
     print()
     print("Give your identity ======>")
     print()
+    
     wid = input("Enter the USER ID --->")
+    
     if sid == wid:
         print()
         password = input("Enter the password --->")
+        
         if pw == password:
             print()
             print("Welcome !!!")
@@ -51,4 +55,3 @@ def login():
         skull.skull()
 
 login()
-            
