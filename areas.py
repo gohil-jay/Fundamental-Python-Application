@@ -62,5 +62,3 @@ def areas():
         print()
         input("Press enter to continue :")
         dots_small.dots()
-        
-    
