@@ -145,11 +145,3 @@ def Number_Conversion():
             break
 
     dots_small.dots()
-
-Number_Conversion()
-    
-        
-
-            
-            
-        
