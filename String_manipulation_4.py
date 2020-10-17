@@ -26,6 +26,3 @@ def String_manipulation():
     print()
     input("Press enter to continue :")
     dots_small.dots()
-    
-            
-                 
