@@ -26,6 +26,3 @@ def sum_even():
     print()
     input("Press enter to continue :")
     dots_small.dots()
-    
-
-
