@@ -4,6 +4,7 @@ def STRING_MANIPULATION():
     import String_manipulation_2
     import String_manipulation_3
     import String_manipulation_4
+    import String_manipulation_5
     import dots_small
 
     def menu():
@@ -18,7 +19,8 @@ def STRING_MANIPULATION():
         print("2. To the number of times a word appears in a given STRING.")
         print("3. To manipulate the String and perform its Capital , Small and Title Conversion.")
         print("4. To find the number of times an entered substring appears in given string")
-        print("5. Exit this MENU")
+        print("5. To find Top mosts words repeated in the String.")
+        print("6. Exit this MENU")
         print()
         print("_____________________________________")
         print()
@@ -36,6 +38,8 @@ def STRING_MANIPULATION():
         elif ch == 4:
             String_manipulation_4.String_manipulation()
         elif ch == 5:
+            String_manipulation_5.String_manipulation()
+        elif ch == 6:
             print()
             print("Aborting.....")
             print(".")
@@ -54,4 +58,3 @@ def STRING_MANIPULATION():
     print()
     input("Press enter to continue :")
     dots_small.dots()
-                  
