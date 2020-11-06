@@ -11,7 +11,7 @@ def Table():
             i+=1
     print("_____________________________________________")
     print()
-    num=int(input('Enter the number you want Table of ------>:'))
+    num=int(input('Enter the number you want Table of ------> '))
     table(num)
     print('_____________________________________________')
 
