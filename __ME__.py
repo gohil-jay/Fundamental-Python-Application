@@ -11,6 +11,7 @@ def BIG():
     import Student_Records
     import BYE
     import dots_verysmall
+    import calc
 
     def menu():
         print()
@@ -28,7 +29,8 @@ def BIG():
         print("7. Encryption and Decryption")
         print("8. List Manipulation")
         print("9. Areas of different shapes")
-        print("10. Exit")
+        print("10. Maths Calulator")
+        print("11. Exit")
         print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
     while True:
@@ -59,10 +61,12 @@ def BIG():
             Encrypt_Decrypt.Encrypt_Decrypt()
         elif ch == 8:
             LIST_MANIPULATION.LIST_MANIPULATION()
-        elif ch ==9:
+        elif ch == 9:
             print()
             areas.areas()
         elif ch == 10:
+            calc.stcalc()
+        elif ch == 11:
             print(".")
             print(".")
             print(".")
